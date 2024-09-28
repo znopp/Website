@@ -557,17 +557,21 @@ video {
 @font-face {
   font-family: 'JetBrains Mono';
 
-  font-display: swap;
+  font-weight: 100 800;
 
   src: url("../fonts/JetBrains Mono/Regular.ttf") format("truetype");
+
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'JetBrains Mono';
 
-  font-display: swap;
+  font-weight: 100 800;
 
   src: url("../fonts/JetBrains Mono/Italic.ttf") format("truetype");
+
+  font-style: italic;
 }
 
 .mb-5 {
@@ -613,6 +617,10 @@ video {
 
 .p-2\.5 {
   padding: 0.625rem;
+}
+
+.font-jetbrains {
+  font-family: "Jetbrains Mono", monospace;
 }
 
 .text-3xl {

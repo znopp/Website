@@ -5,12 +5,14 @@
 @layer base {
     @font-face {
         font-family: 'JetBrains Mono';
-        font-display: swap;
+        font-weight: 100 800;
         src: url("../fonts/JetBrains Mono/Regular.ttf") format("truetype");
+        font-style: normal;
     }
     @font-face {
         font-family: 'JetBrains Mono';
-        font-display: swap;
+        font-weight: 100 800;
         src: url("../fonts/JetBrains Mono/Italic.ttf") format("truetype");
+        font-style: italic;
     }
 }

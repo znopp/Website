@@ -574,6 +574,14 @@ video {
   font-style: italic;
 }
 
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }

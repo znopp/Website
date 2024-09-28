@@ -554,8 +554,20 @@ video {
   display: none;
 }
 
-.m-3 {
-  margin: 0.75rem;
+@font-face {
+  font-family: 'JetBrains Mono';
+
+  font-display: swap;
+
+  src: url("../fonts/JetBrains Mono/Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+
+  font-display: swap;
+
+  src: url("../fonts/JetBrains Mono/Italic.ttf") format("truetype");
 }
 
 .mb-5 {
@@ -582,10 +594,6 @@ video {
   flex-direction: column;
 }
 
-.content-center {
-  align-content: center;
-}
-
 .items-center {
   align-items: center;
 }
@@ -598,26 +606,13 @@ video {
   border-radius: 0.5rem;
 }
 
-.bg-light-1 {
-  --tw-bg-opacity: 1;
-  background-color: hsl(219 9% 78% / var(--tw-bg-opacity));
-}
-
 .bg-light-3 {
   --tw-bg-opacity: 1;
   background-color: hsl(218 5% 90% / var(--tw-bg-opacity));
 }
 
-.bg-center {
-  background-position: center;
-}
-
 .p-2\.5 {
   padding: 0.625rem;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .text-3xl {
@@ -635,24 +630,12 @@ video {
   line-height: 1.75rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.font-thin {
+  font-weight: 100;
 }
 
-.text-dark-2 {
-  --tw-text-opacity: 1;
-  color: hsl(222 28% 28% / var(--tw-text-opacity));
-}
-
-.text-dark-4 {
-  --tw-text-opacity: 1;
-  color: hsl(222 29% 40% / var(--tw-text-opacity));
-}
-
-.text-dark-1 {
-  --tw-text-opacity: 1;
-  color: hsl(220 28% 22% / var(--tw-text-opacity));
+.italic {
+  font-style: italic;
 }
 
 .text-dark-3 {
@@ -675,34 +658,9 @@ video {
   background-color: hsl(222 28% 28% / var(--tw-bg-opacity));
 }
 
-.dark\:bg-dark-3:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(222 29% 34% / var(--tw-bg-opacity));
-}
-
-.dark\:text-light-2:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: hsl(219 7% 84% / var(--tw-text-opacity));
-}
-
 .dark\:text-light-3:is(.dark *) {
   --tw-text-opacity: 1;
   color: hsl(218 5% 90% / var(--tw-text-opacity));
-}
-
-.dark\:text-light-1:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: hsl(219 9% 78% / var(--tw-text-opacity));
-}
-
-.dark\:text-light-4:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: hsl(218 3% 96% / var(--tw-text-opacity));
-}
-
-.dark\:hover\:bg-dark-4:hover:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(222 29% 40% / var(--tw-bg-opacity));
 }
 
 .dark\:hover\:bg-dark-3:hover:is(.dark *) {

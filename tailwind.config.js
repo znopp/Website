@@ -21,23 +21,82 @@ module.exports = {
         extrabold: 800,
       },
       colors: {
-        accent: {
-          1: "hsl(255 35% 28%)",
-          2: "hsl(12 62% 56%)"
+          dark: {
+            1: "#2e3440",
+            2: "#3b4252",
+            3: "#434c5e",
+            4: "#4c566a",
+          },
+          light: {
+            1: "#d8dee9",
+            2: "#e5e9f0",
+            3: "#eceff4"
+          }
+      },
+      animation: {
+        'fade-fast': 'fadeIn 0.5s ease-in-out forwards',
+        'fade-normal': 'fadeIn 1s ease-in-out forwards',
+        'fade-slow': 'fadeIn 1.5s ease-in-out forwards',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
         },
-        dark: {
-          1: "#2e3440",
-          2: "#3b4252",
-          3: "#434c5e",
-          4: "#4c566a",
-        },
-        light: {
-          1: "#d8dee9",
-          2: "#e5e9f0",
-          3: "#eceff4"
-        }
-      }
+      },
+      animationDelay: {
+        '100': '100ms',
+        '200': '200ms',
+        '300': '300ms',
+        '400': '400ms',
+        '500': '500ms',
+        '600': '600ms',
+        '700': '700ms',
+        '800': '800ms',
+        '900': '900ms',
+        '1000': '1000ms',
+        '1100': '1100ms',
+        '1200': '1200ms'
+      },
+      animationDuration: {
+        '100': '100ms',
+        '200': '200ms',
+        '300': '300ms',
+        '400': '400ms',
+        '500': '500ms',
+        '600': '600ms',
+        '700': '700ms',
+        '800': '800ms',
+        '900': '900ms',
+        '1000': '1000ms',
+        '1200': '1200ms'
+      },
     }
   },
-  plugins: [],
+  variants: {
+    extend: {
+      animation: ['responsive', 'motion-safe', 'motion-reduce'],
+      animationDelay: ['responsive', 'motion-safe', 'motion-reduce'],
+      animationDuration: ['responsive', 'motion-safe', 'motion-reduce'],
+    },
+  },
+  plugins: [
+    function({ addUtilities, theme, variants }) {
+      const animationDelayUtilities = Object.entries(theme('animationDelay')).map(([key, value]) => {
+        return {
+          [`.animate-delay-${key}`]: { animationDelay: value },
+        }
+      })
+
+      addUtilities(animationDelayUtilities, variants('animationDelay'))
+
+      const animationDurationUtilities = Object.entries(theme('animationDuration')).map(([key, value]) => {
+        return {
+          [`.animate-duration-${key}`]: { animationDuration: value },
+        }
+      })
+
+      addUtilities(animationDurationUtilities, variants('animationDuration'))
+    },
+  ],
 }

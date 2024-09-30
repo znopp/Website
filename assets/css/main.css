@@ -744,6 +744,10 @@ video {
   flex-shrink: 0;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 .origin-top-right {
   transform-origin: top right;
 }
@@ -1263,12 +1267,24 @@ video {
     display: none;
   }
 
+  .sm\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .sm\:items-center {
+    align-items: center;
+  }
+
   .sm\:items-stretch {
     align-items: stretch;
   }
 
   .sm\:justify-start {
     justify-content: flex-start;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
   }
 
   .sm\:space-x-4 > :not([hidden]) ~ :not([hidden]) {

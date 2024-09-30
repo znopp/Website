@@ -1,7 +1,7 @@
 module.exports = {
   darkMode: "class",
   content: [
-    "./index.html",
+    "./assets/index.html",
     "./assets/html/**/*.html",
     "./assets/js/**/*.js"
   ],
@@ -26,16 +26,15 @@ module.exports = {
           2: "hsl(12 62% 56%)"
         },
         dark: {
-          1: "hsl(220 28% 22%)",
-          2: "hsl(222 28% 28%)",
-          3: "hsl(222 29% 34%)",
-          4: "hsl(222 29% 40%)",
+          1: "#2e3440",
+          2: "#3b4252",
+          3: "#434c5e",
+          4: "#4c566a",
         },
         light: {
-          1: "hsl(219 9% 78%)",
-          2: "hsl(219 7% 84%)",
-          3: "hsl(218 5% 90%)",
-          4: "hsl(218 3% 96%)"
+          1: "#d8dee9",
+          2: "#e5e9f0",
+          3: "#eceff4"
         }
       }
     }

@@ -6,13 +6,22 @@
     @font-face {
         font-family: 'JetBrains Mono';
         font-weight: 100 800;
-        src: url("../fonts/JetBrains Mono/Regular.ttf") format("truetype");
+        src: url("/assets/fonts/JetBrains Mono/Regular.ttf") format("truetype");
         font-style: normal;
     }
     @font-face {
         font-family: 'JetBrains Mono';
         font-weight: 100 800;
-        src: url("../fonts/JetBrains Mono/Italic.ttf") format("truetype");
+        src: url("/assets/fonts/JetBrains Mono/Italic.ttf") format("truetype");
         font-style: italic;
+    }
+}
+
+@layer components {
+    .theme-base {
+        @apply bg-light-2 dark:bg-dark-3 text-dark-1 dark:text-light-4 font-jetbrains font-thin;
+    }
+    .theme-button {
+        @apply text-dark-3 dark:text-light-4 hover:bg-light-1 dark:hover:bg-dark-3;
     }
 }

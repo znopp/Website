@@ -28,9 +28,10 @@ export default {
           4: "#4c566a",
         },
         light: {
-          1: "#d8dee9",
-          2: "#e5e9f0",
-          3: "#eceff4"
+          1: "#BBBEC1",
+          2: "#CACDD1",
+          3: "#D9DDE2",
+          4: "#eceff4"
         }
       },
       animation: {

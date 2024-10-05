@@ -1,6 +1,6 @@
 function loadNavbar() {
     document.getElementById("navbar").innerHTML = `
-            <nav class="bg-light-2 dark:bg-dark-2 font-thin">
+            <nav class="bg-light-3 dark:bg-dark-2 font-thin">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="flex h-20 items-center justify-between">
 
@@ -27,15 +27,17 @@ function loadNavbar() {
 
                         <!-- Desktop links (hidden on mobile) -->
                         <div class="hidden sm:flex sm:space-x-8 sm:items-center flex-grow justify-center">
-                            <a href="/index.html" class="hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-lg text-2xl">Home</a>
-                            <a href="/about.html" class="hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-lg text-2xl">About</a>
-                            <a href="/blogposts.html" class="hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-lg text-2xl">Blogposts</a>
+                            <a href="/index.html" class="hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-lg text-2xl transition-[background-color] duration-300 ease-in-out">Home</a>
+                            <a href="/about.html" class="hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-lg text-2xl transition-[background-color] duration-300 ease-in-out">About</a>
+                            <a href="/contact.html" class="hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-lg text-2xl transition-[background-color] duration-300 ease-in-out">Contact</a>
+                            <a href="/projects.html" class="hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-lg text-2xl transition-[background-color] duration-300 ease-in-out">Projects</a>
+                            <a href="/blogposts.html" class="hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-lg text-2xl transition-[background-color] duration-300 ease-in-out">Blogposts</a>
                         </div>
                     </div>
 
                     <!-- Right section (Theme toggle) -->
                     <div class="flex-shrink-0 p-2">
-                        <button id="theme-toggle" type="button" class="hover:bg-light-1 dark:hover:bg-dark-3 focus:outline-none rounded-full text-sm p-2.5">
+                        <button id="theme-toggle" type="button" class="theme-button focus:outline-none rounded-full text-sm p-2.5">
                             <svg id="theme-toggle-dark-icon" class="hidden w-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
                             </svg>
@@ -50,9 +52,11 @@ function loadNavbar() {
             <!-- Mobile menu -->
             <div class="hidden sm:hidden" id="mobile-menu">
                 <div class="space-y-1 px-2 pb-3 pt-2">
-                    <a href="/index.html" class="block hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-md">Home</a>
-                    <a href="/about.html" class="block hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-md">About</a>
-                    <a href="/blogposts.html" class="block hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-md">Blogposts</a>
+                    <a href="/index.html" class="block hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-md transition-[background-color] duration-300 ease-in-out">Home</a>
+                    <a href="/about.html" class="block hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-md transition-[background-color] duration-300 ease-in-out">About</a>
+                    <a href="/contact.html" class="block hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-md transition-[background-color] duration-300 ease-in-out">Contact</a>
+                    <a href="/projects.html" class="block hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-md transition-[background-color] duration-300 ease-in-out">Projects</a>
+                    <a href="/blogposts.html" class="block hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-md transition-[background-color] duration-300 ease-in-out">Blogposts</a>
                 </div>
             </div>
         </nav>

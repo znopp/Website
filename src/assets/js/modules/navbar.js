@@ -1,6 +1,6 @@
 function loadNavbar() {
     document.getElementById("navbar").innerHTML = `
-            <nav class="bg-light-3 dark:bg-dark-2 font-thin">
+            <nav class="dark:bg-dark-1 font-thin">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="flex h-20 items-center justify-between">
 

@@ -2,26 +2,34 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="author" content="znopp">
+        <meta name="description" content="Blogposts page for my website, life, and everything else.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="/assets/images/logo.png">
+        <link rel="icon" type="image/png" href="/assets/images/emblem.png">
+        <link rel="preload" href="/assets/css/input.css" as="style">
         <link href="/assets/css/input.css" rel="stylesheet">
         <script src="/assets/js/darkmode.js" type="module"></script>
         <script src="/assets/js/modules/navbar.js" type="module"></script>
+        <script src="/assets/js/modules/footer.js" type="module"></script>
+        <script src="/assets/js/modules/blogposts.js" type="module"></script>
         <title>Blogposts</title>
     </head>
     <body class="theme-base">
 
         <nav id="navbar"></nav>
 
-        <div class="items-center justify-center text-center font-thin sm:px-30 md:px-40 px-10">
+        <div class="flex-grow items-center justify-center text-center px-10">
             <div>
                 <h1 class="text-3xl mt-10">Blogposts</h1>
             </div>
             <div class="text-xl mt-20">
-                <p class="mb-5">This is the blogposts page, where I will issue updates on things whenever I feel like it.</p>
-                <p class="mb-5">It can range from webdev and programming to daily life, it really depends on what I've got to say.</p>
+                <p class="mb-5">This is the blogposts page, where I'll make posts about stuff sometimes.</p>
+                <p class="mb-5">The topmost post will always be the most recent, and will always include a <span class="theme-highlight">YYYY-MM-DD</span> formatted timestamp.</p>
             </div>
-        </div>
 
+            <div id="blogposts"></div>
+
+        </div>
+        <div id="footer"></div>
     </body>
 </html>

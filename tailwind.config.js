@@ -72,6 +72,9 @@ export default {
         '1000': '1000ms',
         '1200': '1200ms'
       },
+      screens: {
+        "desktop": "1080px"
+      }
     }
   },
   variants: {

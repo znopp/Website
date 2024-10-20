@@ -1,12 +1,12 @@
 function loadNavbar() {
     document.getElementById("navbar").innerHTML = `
-            <nav class="dark:bg-dark-1 font-thin">
-            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <nav class="font-thin">
+            <div class="mx-auto max-w-7xl px-10">
                 <div class="flex h-20 items-center justify-between">
 
                     <!-- Left section (Logo) -->
                     <div class="flex-shrink-0 p-2">
-                        <a href="/index.html" aria-label="Homepage">
+                        <a href="/" aria-label="Homepage">
                             <img class="h-14 rounded-full" src="/assets/images/logo.png" alt="Logo">
                         </a>
                     </div>
@@ -14,7 +14,7 @@ function loadNavbar() {
                     <!-- Center section (Desktop links) and mobile hamburger button -->
                     <div class="flex items-center justify-center flex-grow">
                         <!-- Centered hamburger button for mobile -->
-                        <div class="sm:hidden">
+                        <div class="desktop:hidden">
                             <button type="button" class="inline-flex items-center justify-center p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-inset dark:focus:ring-light-1 focus:ring-dark-4 hover:bg-light-1 dark:hover:bg-dark-4" aria-controls="mobile-menu" aria-expanded="false">
                                 <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -26,18 +26,18 @@ function loadNavbar() {
                         </div>
 
                         <!-- Desktop links (hidden on mobile) -->
-                        <div class="hidden sm:flex sm:space-x-8 sm:items-center flex-grow justify-center">
-                            <a href="/index.html" class="hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-lg text-2xl transition-[background-color] duration-300 ease-in-out">Home</a>
-                            <a href="/about.html" class="hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-lg text-2xl transition-[background-color] duration-300 ease-in-out">About</a>
-                            <a href="/contact.html" class="hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-lg text-2xl transition-[background-color] duration-300 ease-in-out">Contact</a>
-                            <a href="/projects.html" class="hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-lg text-2xl transition-[background-color] duration-300 ease-in-out">Projects</a>
-                            <a href="/blogposts.html" class="hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-lg text-2xl transition-[background-color] duration-300 ease-in-out">Blogposts</a>
+                        <div class="hidden desktop:flex desktop:space-x-8 desktop:items-center flex-grow justify-center">
+                            <a href="/" class="theme-hover px-3 py-2 rounded-lg text-2xl">Home</a>
+                            <a href="/about" class="theme-hover px-3 py-2 rounded-lg text-2xl">About</a>
+                            <a href="/contact" class="theme-hover px-3 py-2 rounded-lg text-2xl">Contact</a>
+                            <a href="/projects" class="theme-hover px-3 py-2 rounded-lg text-2xl">Projects</a>
+                            <a href="/blogposts" class="theme-hover px-3 py-2 rounded-lg text-2xl">Blogposts</a>
                         </div>
                     </div>
 
                     <!-- Right section (Theme toggle) -->
                     <div class="flex-shrink-0 p-2">
-                        <button id="theme-toggle" type="button" class="theme-button focus:outline-none rounded-full text-sm p-2.5">
+                        <button id="theme-toggle" type="button" class="theme-toggle-button focus:outline-none rounded-full text-sm p-2.5">
                             <svg id="theme-toggle-dark-icon" class="hidden w-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
                             </svg>
@@ -50,13 +50,13 @@ function loadNavbar() {
             </div>
 
             <!-- Mobile menu -->
-            <div class="hidden sm:hidden" id="mobile-menu">
-                <div class="space-y-1 px-2 pb-3 pt-2">
-                    <a href="/index.html" class="block hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-md transition-[background-color] duration-300 ease-in-out">Home</a>
-                    <a href="/about.html" class="block hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-md transition-[background-color] duration-300 ease-in-out">About</a>
-                    <a href="/contact.html" class="block hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-md transition-[background-color] duration-300 ease-in-out">Contact</a>
-                    <a href="/projects.html" class="block hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-md transition-[background-color] duration-300 ease-in-out">Projects</a>
-                    <a href="/blogposts.html" class="block hover:bg-light-1 dark:hover:bg-dark-4 px-3 py-2 rounded-md transition-[background-color] duration-300 ease-in-out">Blogposts</a>
+            <div class="hidden desktop:hidden theme-mobile-navbar text-xl" id="mobile-menu">
+                <div class="space-y-1 px-12 py-2">
+                    <a href="/" class="theme-hover block py-2 rounded-md">Home</a>
+                    <a href="/about" class="theme-hover block py-2 rounded-md">About</a>
+                    <a href="/contact" class="theme-hover block py-2 rounded-md">Contact</a>
+                    <a href="/projects" class="theme-hover block py-2 rounded-md">Projects</a>
+                    <a href="/blogposts" class="theme-hover block py-2 rounded-md">Blogposts</a>
                 </div>
             </div>
         </nav>
@@ -65,28 +65,28 @@ function loadNavbar() {
     // mobile navbar
 
     const menuButton = document.querySelector('button[aria-controls="mobile-menu"]');
-    const mobileMenu = document.getElementById('mobile-menu');
-    const openIcon = menuButton.querySelector('svg.block');  // Hamburger icon
-    const closeIcon = menuButton.querySelector('svg.hidden');  // X icon
+    const mobileMenu = document.getElementById("mobile-menu");
+    const openIcon = menuButton.querySelector("svg.block");  // Hamburger icon
+    const closeIcon = menuButton.querySelector("svg.hidden");  // X icon
 
     // Ensure the menu is closed by default and shows the open icon
-    mobileMenu.classList.add('hidden');
-    openIcon.classList.remove('hidden');
-    closeIcon.classList.add('hidden');
+    mobileMenu.classList.add("hidden");
+    openIcon.classList.remove("hidden");
+    closeIcon.classList.add("hidden");
 
     // Add a click event listener to the menu button
-    menuButton.addEventListener('click', () => {
-        const isExpanded = menuButton.getAttribute('aria-expanded') === 'true' || false;
+    menuButton.addEventListener("click", () => {
+        const isExpanded = menuButton.getAttribute("aria-expanded") === "true" || false;
 
         // Toggle the aria-expanded attribute
-        menuButton.setAttribute('aria-expanded', !isExpanded);
+        menuButton.setAttribute("aria-expanded", !isExpanded);
 
         // Toggle the visibility of the mobile menu
-        mobileMenu.classList.toggle('hidden');
+        mobileMenu.classList.toggle("hidden");
 
         // Swap between the open and close icons
-        openIcon.classList.toggle('hidden');
-        closeIcon.classList.toggle('hidden');
+        openIcon.classList.toggle("hidden");
+        closeIcon.classList.toggle("hidden");
     });
 
     if (window.triggerThemeSetup) {

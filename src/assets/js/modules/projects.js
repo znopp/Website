@@ -42,7 +42,7 @@ function loadProjects() {
                     <p class="mb-5">Constantly.</p>
                     <p class="mb-5">It was made for private use with inside jokes between friends, and served as my entry to Java programming.</p>
                     <p class="mb-5">You see, a great friend of mine, Geri, helped me out a lot in creating it - actually, it's a recreation from the old Python version.
-                                    He's a great guy, and I recommend you <a href="https://geri.dev" target="_blank" class="theme-link">check him out!</a>
+                                    He's a great guy, and I recommend you <a href="https://geri.dev" target="_blank" class="theme-link theme-highlight-hover">check him out!</a>
                     </p>
                 </div>
             </a>

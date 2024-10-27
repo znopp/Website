@@ -41,9 +41,15 @@
         transition: none;
     }
     .theme-highlight {
-        @apply bg-light-3 dark:bg-dark-3 py-0.5 px-1 rounded-md;
+        @apply bg-light-1 dark:bg-dark-4 py-0.5 px-1 rounded-md;
+    }
+    .theme-highlight-hover {
+        @apply theme-highlight hover:bg-light-3 hover:dark:bg-dark-2;
     }
     .theme-link {
-        @apply underline text-blue-400 px-1 rounded-md;
+        @apply underline text-blue-600 dark:text-blue-400 px-1 rounded-md;
+    }
+    .content-base {
+        @apply flex-grow justify-center text-center px-10;
     }
 }

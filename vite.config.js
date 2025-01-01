@@ -1,4 +1,3 @@
-// vite.config.js
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
 import fs from 'fs';
@@ -13,32 +12,27 @@ const input = Object.fromEntries(
 
 export default defineConfig({
     root: 'src',
+    base: './', // Ensures relative paths in production
     build: {
-        outDir: 'dist/src',
+        outDir: '../dist',
         rollupOptions: {
             input,
             output: {
-                // Place all assets in subfolders under "assets/"
+                // Define paths for specific asset types
                 assetFileNames: (assetInfo) => {
-                    // Generalize by preserving the subfolder structure in assets/
-                    const ext = assetInfo.name.split('.').pop();  // Get file extension
-
-                    if (ext === 'css') {
-                        return 'assets/css/[name][extname]';
-                    }
-                    if (ext === "js") {
-                        return 'assets/js/[name][extname]';
-                    }
-                    if (['ttf', 'woff', 'woff2', 'eot', 'otf'].includes(ext)) {
-                        return 'assets/fonts/[name][extname]';
-                    }
+                    const ext = assetInfo.name.split('.').pop(); // Get file extension
+                    if (ext === 'css') return 'assets/css/[name][extname]';
+                    if (ext === 'js') return 'assets/js/[name][extname]';
                     if (['png', 'jpg', 'jpeg', 'svg', 'gif', 'webp', 'ico'].includes(ext)) {
                         return 'assets/images/[name][extname]';
                     }
-                    // Fallback for anything else
-                    return 'assets/[name][extname]';
+                    if (['ttf', 'woff', 'woff2', 'eot'].includes(ext)) {
+                        return 'assets/fonts/[name][extname]';
+                    }
+                    return 'assets/[name][extname]'; // Fallback
                 },
-                chunkFileNames: 'assets/js/[name].js',
+                // Define paths for JavaScript chunks
+                chunkFileNames: 'assets/js/modules/[name].js',
                 entryFileNames: 'assets/js/[name].js',
             },
         },

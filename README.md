@@ -1,2 +1,2 @@
 # Website
-My new website, eventually
+My new website

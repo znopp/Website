@@ -14,7 +14,7 @@ const input = Object.fromEntries(
 export default defineConfig({
     root: 'src',
     build: {
-        outDir: 'dist/src',
+        outDir: '../dist/src',
         rollupOptions: {
             input,
             output: {

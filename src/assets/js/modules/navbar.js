@@ -1,3 +1,5 @@
+import logoUrl from '../../images/logo.png';
+
 function loadNavbar() {
     document.getElementById("navbar").innerHTML = `
         <nav class="font-thin">
@@ -7,7 +9,7 @@ function loadNavbar() {
                     <!-- Left section (Logo) -->
                     <div class="flex-shrink-0 p-2">
                         <a href="/" aria-label="Homepage">
-                            <img class="h-14 rounded-full" src="/assets/images/logo.png" alt="Logo">
+                            <img class="h-14 rounded-full" src="${logoUrl}" alt="Logo">
                         </a>
                     </div>
 

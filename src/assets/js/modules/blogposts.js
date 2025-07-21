@@ -4,6 +4,59 @@ function loadBlogposts() {
     
     <div class="theme-cards">
         <div class="max-w-2xl desktop:max-w-5xl">
+            <h1 class="text-2xl mt-5">A new chapter</h1>
+            <div class="px-10 text-left">
+                <p class="theme-date text-center mb-5">2025-03-04</p>
+                <p class="mb-20">I'm still alive, just not very good at making regular updates!</p>
+                
+                <p class="mb-5">
+                    How has a third of the year already elapsed? That's crazy.
+                    My birthday is in like 2 months! I don't get how time can move so quickly sometimes...
+                </p>
+                
+                <p class="mb-5">
+                    The start of my year didn't really go as planned though. I got covid halfway through January and was sick for weeks.
+                    My paycheck ended up being less than desirable, but that will pass.
+                    I still have some phantom covid effects, specifically bouts of dry cough now and then.
+                </p>
+                
+                <p class="mb-5">
+                    Remember that new keyboard I got? Yeah, I managed to spill sugary soda on it.
+                    The one time I decided to not get sugar-free. #FML. Is that a thing still?
+                    
+                    It still works, just that a few of the keys are a bit sticky and/or stuck.
+                    Thankfully, I’m not a keyboard enthusiast, so this thing only set me back 700 SEK.
+                </p>
+                
+                <p class="mb-20">
+                    I've gotten seriously into listening to the TRON: Legacy soundtrack, especially while playing competitive mini-games in Minecraft.
+                    Man, sometimes I feel like the main character.
+                </p>
+                
+                <p class="mb-5">
+                    Evelyn and I have been doing great together, we actually got to our 3-month anniversary today!
+                    Regarding that, I have an update:
+                </p>
+                
+                <p class="mb-5">
+                    So, not too long ago, I joined a Discord and Minecraft server that Evelyn sent me. I joined it and through there found Ellie.
+                    The three of us started talking in private, and very quickly clicked. Like, <span class="italic">really</span> clicked.
+                </p>
+                
+                <p class="mb-5">
+                    Evelyn and I talked, and we both like her very much. So... The three of us have something together now.
+                    Polyamory? Friends with benefits? I'm not sure what to label it. All I know is that the three of us are together, and we’re happy.
+                    What's more important than that?
+                </p>
+                
+                <p>End of line.</p>
+                <p class="mb-5 text-xs theme-date">See what I did there? Heh.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="theme-cards">
+        <div class="max-w-2xl desktop:max-w-5xl">
             <h1 class="text-2xl mt-5">To a new year</h1>
             <div class="px-10 text-left">
                 <p class="theme-date text-center mb-5">2024-12-31</p>
@@ -94,7 +147,7 @@ function loadBlogposts() {
                     </li>
                     
                     <li class="mb-5">
-                        My room is a bit bigger now, not because the walls have been moved, but because the 4 giant bookshelves have been taken out. I can now have my bed in the actual corner of the room!
+                        My room is a bit bigger now, not because the walls have been moved, but because the four giant bookshelves have been taken out. I can now have my bed in the actual corner of the room!
                     </li>
                 </ul>
                 
@@ -105,12 +158,11 @@ function loadBlogposts() {
                 <p class="mb-5">
                     A new year, a new beginning.
                 </p>
-                 
             </div>
         </div>
     </div>
     
-    <div class="theme-cards">
+        <div class="theme-cards">
             <div class="mx-auto max-w-2xl desktop:max-w-5xl">
                 <h1 class="text-2xl mt-5">Mobile adjustment, polish & life update</h1>
                 <div class="px-10 text-left">

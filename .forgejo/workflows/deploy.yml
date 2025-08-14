@@ -22,10 +22,10 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Add custom domain
-        run: echo 'znopp.pw' > ./dist/src/.domains
-
       - name: Deploy
-        uses: https://git.gay/gitgay/pages-deploy@v1
+        uses: https://github.com/enjarai/staticinator@master
         with:
           folder: ./dist/src
+          host: ${{ secrets.DEPLOY_HOST }}
+          token: ${{ secrets.DEPLOY_TOKEN }}
+  

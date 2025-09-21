@@ -4,6 +4,69 @@ function loadBlogposts() {
     
     <div class="theme-cards">
         <div class="max-w-2xl desktop:max-w-5xl">
+            <h1 class="text-2xl mt-5">One hell of a ride</h1>
+            <div class="px-10 text-left">
+                <p class="theme-date mb-5 text-center">2025-09-21</p>
+                <p class="mb-5">
+                    I honestly don't even know where to begin. Let's just say that Evelyn and Ellie weren't good people,
+                    and theyre not in my life anymore. You can skip to the second part of the post if you don't want the details.
+                </p>
+                
+                <p class="mb-5">
+                    I don't want to make this too long, so I will simplify and leave out major parts, mostly
+                    because it's all very personal. All my friends were practically screaming at me to leave Evelyn,
+                    but I couldn't listen to them because I couldn't stop thinking "what if it gets better." And Ellie?
+                    Yeah, it took less than a week for her to make up terrible things about me, in an effort to make
+                    Evelyn leave me for her. She did this under the guise that she wanted to talk to me about it,
+                    but after considerable delay on her part, we never did. Suffice it to say things ended quickly.
+                </p>
+                
+                <p class="mb-20">
+                    Evelyn and her craziness is now firmly in the past as of July, but I genuinely think I might need
+                    therapy after everything. Partly to process everything in the relationship, but also because
+                    I've realized I have some other issues that I need to work on.
+                </p>
+
+                <p class="mb-5">
+                    For some better news: After I ended that chapter of my life, I decided I wanted to find some 
+                    new friends, and I did just that when I found a really cool Discord server full of trans people!
+                    I've been there for a bit now, and while I don't talk to everyone, I feel like I am on a friendly
+                    basis with a few people :)
+                </p>
+                
+                <p class="mb-5">
+                    It's now also been over 4 months on HRT! I can't really tell that much of a difference, but I didn't
+                    notice when I was getting taller during my childhood either. I should take pictures honestly.
+                </p>
+                
+                <p class="mb-20">
+                    To round this update off, I want to talk about how Twenty One Pilots released their latest (last?) album.
+                    I've been an avid fan since the Blurryface album first released in 2013, and I can't believe the story
+                    has finally come to an end in Breach. I feel like smiling and crying at the same time. Does that make sense?
+                </p>
+                
+                <p class="mb-5">
+                    Hoping to make my next blogpost in less than 6 months. It took so long because I was putting it off
+                    thinking that there would be changes in the story that I then had to make an update on. I also
+                    changed workflow, so that turned out to become a hurdle.
+                </p>
+                
+                <p class="mb-5">
+                    Oh, and listen to Twenty One Pilots before my next blogpost. Not that it will have
+                    some niche inside knowledge or anything, just that you should totally give it a listen.
+                </p>
+                
+                <p class="mb-5">
+                    Cya soon!
+                </p>
+                
+            </div>
+        </div>
+    </div>    
+    
+    
+    <div class="theme-cards">
+        <div class="max-w-2xl desktop:max-w-5xl">
             <h1 class="text-2xl mt-5">A new chapter</h1>
             <div class="px-10 text-left">
                 <p class="theme-date text-center mb-5">2025-03-04</p>
@@ -162,140 +225,140 @@ function loadBlogposts() {
         </div>
     </div>
     
-        <div class="theme-cards">
-            <div class="mx-auto max-w-2xl desktop:max-w-5xl">
-                <h1 class="text-2xl mt-5">Mobile adjustment, polish & life update</h1>
-                <div class="px-10 text-left">
-                    <p class="theme-date mb-5 text-center">2024-10-26</p>
-                    <p class="mb-20">Hello again! Tiny update to the website this time :)</p>
+    <div class="theme-cards">
+        <div class="mx-auto max-w-2xl desktop:max-w-5xl">
+            <h1 class="text-2xl mt-5">Mobile adjustment, polish & life update</h1>
+            <div class="px-10 text-left">
+                <p class="theme-date mb-5 text-center">2024-10-26</p>
+                <p class="mb-20">Hello again! Tiny update to the website this time :)</p>
+                
+                <p class="mb-5">
+                The main page now has a padding to stop the text on mobile from touching both sides of the screen.
+                I forgot to add it to the main page only, but that's been fixed now.
+                </p>
+                
+                <p class="mb-5">
+                The CSS classes most commonly used in the outermost layer have been consolidated into one class called
+                <span class="theme-highlight">content-base</span>.
+                This means less copy-paste and therefore fewer points of failure.
+                That is to say, each document could've been slightly different, but now I’m guaranteed they will all have these base classes.
+                </p>
+                
+                <p class="mb-5">
+                Lastly, I also changed the content description for most pages, as I realized they’re what show up in an embed to my website.
+                </p>
+                
+                <p class="mb-20">
+                Actually, I just noticed that <span class="theme-highlight">theme-highlight</span> has the same color as the card background on light mode. Fixing it now!
+                </p>
+                
+                <p class="mb-5">So, how's life otherwise?</p>
+                
+                <p class="mb-5">
+                Well, I just got my first paycheck yesterday, so that's cool!
+                It's not much, but I also didn’t work a full month in September.
+                </p>
+                <p class="mb-5">
+                My cat, Shadow, is doing well. Cute and lovable as always. Though sometimes, he tends to be exactly in the way of my monitors.
+                I'm not sure how he does it, to be honest.
+                He's doing it right now, actually. It's hard to see what I'm typing. Buuut, I love him regardless. Always <3
+                </p>
+                
+                <p class="mb-5">
+                Yesterday I also bought a new keyboard! The last one, which tragically suffered from the yoghurt incident of '24, <span class="italic">technically</span> does still work.
+                It's just that it feels... blegh.
+                The keys affected feel crunchy, more resistance than usual, and not in a good way like a heavy button could be.
+                </p>
+                
+                <p class="mb-5">
+                This new keyboard is actually very similar to the old one, as it is just a different submodel.
+                The fallen soldier is a Cooler Master SK630, and the new one is an SK653.
+                The main differences are as follows:
+                </p>
+                
+                <ol class="list-decimal list-inside">
+                    <li class="mb-2">
+                    It's white
+                    </li>
                     
-                    <p class="mb-5">
-                    The main page now has a padding to stop the text on mobile from touching both sides of the screen.
-                    I forgot to add it to the main page only, but that's been fixed now.
-                    </p>
+                    <li class="mb-2">
+                    It can be both wired and wireless, with a USB stick/dongle to your device
+                    </li>
                     
-                    <p class="mb-5">
-                    The CSS classes most commonly used in the outermost layer have been consolidated into one class called
-                    <span class="theme-highlight">content-base</span>.
-                    This means less copy-paste and therefore fewer points of failure.
-                    That is to say, each document could've been slightly different, but now I’m guaranteed they will all have these base classes.
-                    </p>
+                    <li class="mb-2">
+                    It has a numpad
+                    </li>
                     
-                    <p class="mb-5">
-                    Lastly, I also changed the content description for most pages, as I realized they’re what show up in an embed to my website.
-                    </p>
-                    
-                    <p class="mb-20">
-                    Actually, I just noticed that <span class="theme-highlight">theme-highlight</span> has the same color as the card background on light mode. Fixing it now!
-                    </p>
-                    
-                    <p class="mb-5">So, how's life otherwise?</p>
-                    
-                    <p class="mb-5">
-                    Well, I just got my first paycheck yesterday, so that's cool!
-                    It's not much, but I also didn’t work a full month in September.
-                    </p>
-                    <p class="mb-5">
-                    My cat, Shadow, is doing well. Cute and lovable as always. Though sometimes, he tends to be exactly in the way of my monitors.
-                    I'm not sure how he does it, to be honest.
-                    He's doing it right now, actually. It's hard to see what I'm typing. Buuut, I love him regardless. Always <3
-                    </p>
-                    
-                    <p class="mb-5">
-                    Yesterday I also bought a new keyboard! The last one, which tragically suffered from the yoghurt incident of '24, <span class="italic">technically</span> does still work.
-                    It's just that it feels... blegh.
-                    The keys affected feel crunchy, more resistance than usual, and not in a good way like a heavy button could be.
-                    </p>
-                    
-                    <p class="mb-5">
-                    This new keyboard is actually very similar to the old one, as it is just a different submodel.
-                    The fallen soldier is a Cooler Master SK630, and the new one is an SK653.
-                    The main differences are as follows:
-                    </p>
-                    
-                    <ol class="list-decimal list-inside">
-                        <li class="mb-2">
-                        It's white
-                        </li>
-                        
-                        <li class="mb-2">
-                        It can be both wired and wireless, with a USB stick/dongle to your device
-                        </li>
-                        
-                        <li class="mb-2">
-                        It has a numpad
-                        </li>
-                        
-                        <li class="mb-20">
-                        The keys aren’t entirely flat, instead slightly curved.
-                        </li>
-                    </ol>
-                    
-                    <p class="mb-5">
-                    Also, what do you think of the text being centered?
-                    Maybe it should stick to the left instead, like a normal text does.
-                    It's probably better for readability; I just don't know how good it would look.
-                    </p>
-                    
-                    <p class="mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Proin vel maximus magna.
-                    Integer dignissim at tellus quis ultricies.
-                    Ut semper lectus vel quam egestas, ut cursus ligula facilisis.
-                    Pellentesque efficitur mi ipsum.
-                    Fusce posuere mi vel augue pretium, eu ultrices felis tincidunt.
-                    </p>
-                    
-                    <p class="mb-5">
-                    Nunc eu imperdiet metus.
-                    Curabitur eget tellus posuere, mattis justo id, pretium ligula.
-                    Quisque pretium ut velit nec tincidunt.
-                    Suspendisse sapien nunc, sollicitudin vel urna in, interdum iaculis ipsum.
-                    Aliquam congue at arcu faucibus mattis.
-                    In turpis sapien, sollicitudin sed tortor non, tincidunt vestibulum odio. 
-                    </p>
-                    
-                    <p class="mb-5">
-                    You know, it doesn't look that bad...
-                    </p>
-                    
-                    <p class="mb-5">
-                    Maybe the next update.
-                    </p>
-                    
-                </div>
+                    <li class="mb-20">
+                    The keys aren’t entirely flat, instead slightly curved.
+                    </li>
+                </ol>
+                
+                <p class="mb-5">
+                Also, what do you think of the text being centered?
+                Maybe it should stick to the left instead, like a normal text does.
+                It's probably better for readability; I just don't know how good it would look.
+                </p>
+                
+                <p class="mb-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin vel maximus magna.
+                Integer dignissim at tellus quis ultricies.
+                Ut semper lectus vel quam egestas, ut cursus ligula facilisis.
+                Pellentesque efficitur mi ipsum.
+                Fusce posuere mi vel augue pretium, eu ultrices felis tincidunt.
+                </p>
+                
+                <p class="mb-5">
+                Nunc eu imperdiet metus.
+                Curabitur eget tellus posuere, mattis justo id, pretium ligula.
+                Quisque pretium ut velit nec tincidunt.
+                Suspendisse sapien nunc, sollicitudin vel urna in, interdum iaculis ipsum.
+                Aliquam congue at arcu faucibus mattis.
+                In turpis sapien, sollicitudin sed tortor non, tincidunt vestibulum odio. 
+                </p>
+                
+                <p class="mb-5">
+                You know, it doesn't look that bad...
+                </p>
+                
+                <p class="mb-5">
+                Maybe the next update.
+                </p>
+                
             </div>
         </div>
-    
-        <div class="theme-cards">
-            <div class="max-w-2xl desktop:max-w-5xl">
-                <h1 class="text-2xl mt-5">Creatio Ex Nihilo</h1>
-                <div class="px-10 text-left">
-                    <p class="theme-date mb-5 text-center">2024-10-15</p>
-                    <p class="mb-5">
-                        If you've been here before, you probably noticed the massive overhaul. How do you like it?
-                    </p>
-                    
-                    <p class="mb-5">
-                        It's been on my list for a long time, but I finally sat down and began to remake my website into something
-                        that I'm much prouder of.
-                    </p>
-                    
-                    <p class="mb-5">
-                        It's sporting TailwindCSS, making it much easier to build lightweight yet feature-rich websites.
-                        Moreover, the colors are based on a well-established theme called Nord, but extended and tweaked for
-                        my use cases.
-                    </p>
-                    
-                    <p class="mb-5">
-                        Finally, I want to draw your attention to the new theme button in the top right.
-                        Gone are the days of forced dark mode. Hallelujah!
-                    </p>
-                </div>
-            </div>
-        </div>        
     </div>
-    `;
+
+    <div class="theme-cards">
+        <div class="max-w-2xl desktop:max-w-5xl">
+            <h1 class="text-2xl mt-5">Creatio Ex Nihilo</h1>
+            <div class="px-10 text-left">
+                <p class="theme-date mb-5 text-center">2024-10-15</p>
+                <p class="mb-5">
+                    If you've been here before, you probably noticed the massive overhaul. How do you like it?
+                </p>
+                
+                <p class="mb-5">
+                    It's been on my list for a long time, but I finally sat down and began to remake my website into something
+                    that I'm much prouder of.
+                </p>
+                
+                <p class="mb-5">
+                    It's sporting TailwindCSS, making it much easier to build lightweight yet feature-rich websites.
+                    Moreover, the colors are based on a well-established theme called Nord, but extended and tweaked for
+                    my use cases.
+                </p>
+                
+                <p class="mb-5">
+                    Finally, I want to draw your attention to the new theme button in the top right.
+                    Gone are the days of forced dark mode. Hallelujah!
+                </p>
+            </div>
+        </div>
+    </div>        
+</div>
+`;
 
 }
 document.addEventListener("DOMContentLoaded", loadBlogposts);

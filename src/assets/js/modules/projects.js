@@ -6,8 +6,10 @@ function loadProjects() {
                 <div class="mx-auto">
                     <h1 class="text-2xl mt-5 mb-5">Lily Games</h1>
                     <div class="px-10 mx-auto">
-                        <p class="mb-5">This is my Discord server where I host different projects, from standalone
-                        Unity games to Minecraft mods and Discord bots!</p>
+                        <p class="mb-5">
+                            This is my Discord server where I host different projects, from standalone
+                            Unity games to Minecraft mods and Discord bots!
+                        </p>
                     </div>
                 </div>
             </a>
@@ -18,7 +20,9 @@ function loadProjects() {
                 <div class="mx-auto">
                     <h1 class="text-2xl mt-5 mb-5">Would You Rather...?</h1>
                     <div class="px-10 mx-auto">
-                        <p class="mb-5">A Discord bot meant to create discussion on topics, such as "Would you rather have super-speed or flight?"</p>
+                        <p class="mb-5">
+                            A Discord bot meant to create discussion on topics, such as "Would you rather have super-speed or flight?"
+                        </p>
                     </div>
                 </div>
             </a>
@@ -29,7 +33,9 @@ function loadProjects() {
                 <div class="mx-auto">
                     <h1 class="text-2xl mt-5 mb-5">Compass</h1>
                     <div class="px-10 mx-auto">
-                        <p class="mb-5">A Minecraft server based on the Minestom architecture. It is the hub server for several minigames.</p>
+                        <p class="mb-5">
+                            A Minecraft server based on the Minestom architecture. It is the hub server for several minigames.
+                        </p>
                     </div>
                 </div>
             </a>
@@ -39,11 +45,21 @@ function loadProjects() {
             <a href="https://github.com/znopp/mistor-time-java" target="_blank">
                 <div class="px-10 mx-auto">
                     <h1 class="text-2xl mt-5 mb-5">Mr. Time</h1>
-                    <p class="mb-5">Not sure what time it is? This Discord bot will tell you!</p>
-                    <p class="mb-5">Constantly.</p>
-                    <p class="mb-5">It was made for private use with inside jokes between friends, and served as my entry to Java programming.</p>
-                    <p class="mb-5">You see, a great friend of mine, Geri, helped me out a lot in creating it - actually, it's a recreation from the old Python version.
-                                    He's a great guy, and I recommend you <a href="https://geri.dev" target="_blank" class="theme-link theme-highlight-hover">check him out!</a>
+                    
+                    <p class="mb-5">
+                        Not sure what time it is? This Discord bot will tell you!
+                    </p>
+                    
+                    <p class="mb-5">
+                        Constantly.
+                    </p>
+                    
+                    <p class="mb-5">
+                        It was made for private use with inside jokes between friends, and served as my entry to Java programming.
+                    </p>
+                    
+                    <p class="mb-5">
+                        You see, a person named Geri helped me out a lot in creating it. It's a recreation from the old Python version.
                     </p>
                 </div>
             </a>

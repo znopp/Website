@@ -4,9 +4,10 @@ function loadProjects() {
         <div class="theme-cards theme-hover">
             <a href="https://discord.gg/D6wRzcgGXN" target="_blank">
                 <div class="mx-auto">
-                    <h1 class="text-2xl mt-5 mb-5">Untitled Ocean Game</h1>
+                    <h1 class="text-2xl mt-5 mb-5">Lily Games</h1>
                     <div class="px-10 mx-auto">
-                        <p class="mb-5">A small Unity game I've worked on in my free time. It's not finished, but maybe some day...</p>
+                        <p class="mb-5">This is my Discord server where I host different projects, from standalone
+                        Unity games to Minecraft mods and Discord bots!</p>
                     </div>
                 </div>
             </a>
